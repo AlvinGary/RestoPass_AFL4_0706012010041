@@ -9,7 +9,11 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        Color.green
+        ZStack {
+            Color.strokeColor
+                .ignoresSafeArea()
+            .frame(width: .infinity, height: .infinity)
+        }
     }
 }
 

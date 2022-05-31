@@ -6,31 +6,53 @@
 //
 
 import SwiftUI
+import UIKit
+
+extension Color {
+    static let tabViewBackground = Color("tabViewBackground")
+    static let bgColor = Color("Background")
+    static let tvIcon = Color("tabViewIconColor")
+    static let strokeColor = Color("strokeColor")
+}
+
+extension View {
+    func cornerRadius(_ radius: CGFloat, corners: UIRectCorner) -> some View {
+        clipShape( RoundedCorner(radius: radius, corners: corners) )
+    }
+}
+
+struct RoundedCorner: Shape {
+
+    var radius: CGFloat = .infinity
+    var corners: UIRectCorner = .allCorners
+
+    func path(in rect: CGRect) -> Path {
+        let path = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+        return Path(path.cgPath)
+    }
+}
+
+    //.cornerRadius(20, corners: [.topLeft, .topRight])
 
 struct ContentView: View {
+    
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor(Color.tabViewBackground)
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.strokeColor)
+    }
+    
     var body: some View {
         
-        TabView {
+        return TabView {
             HomeView()
                 .tabItem() {
                     Image(systemName: "house")
-                        .symbolRenderingMode(.monochrome)
-                        .foregroundStyle(.brown)
                     Text("Home")
-                }
-            ListView()
-                .tabItem() {
-                    Image(systemName: "list.bullet")
-                        .symbolRenderingMode(.monochrome)
-                        .foregroundColor(Color.brown)
-                    Text("List")
                 }
             ProfileView()
                 .tabItem() {
                     Image(systemName: "person")
-                        .symbolRenderingMode(.monochrome)
-                        .foregroundColor(Color.brown)
-                    Text("Home")
+                    Text("Profile")
                 }
         }
     }

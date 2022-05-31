@@ -10,7 +10,9 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         ZStack {
-            Color.brown
+            Color.teal
+                .ignoresSafeArea()
+                .frame(width: .infinity, height: .infinity)
         }
     }
 }
