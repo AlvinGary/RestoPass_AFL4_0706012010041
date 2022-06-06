@@ -6,8 +6,11 @@
 //
 
 import Foundation
+import Combine
 
-var restolists: [Resto] = load("restaurant-data.json")
+final class ModelData: ObservableObject {
+    @Published var restolists: [Resto] = load("restaurant-data.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
