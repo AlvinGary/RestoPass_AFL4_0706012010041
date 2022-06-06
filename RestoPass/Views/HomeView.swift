@@ -27,21 +27,15 @@ struct HomeView: View {
         VStack {
             HStack {
                 CircleAccount(img: Image("A1.jpg"))
-                    .padding(.leading)
                 
                 Text("Hello, Alvin!")
                     .frame(width: 250, height: 50, alignment: .leading)
-                    .font(.system(size: 20, weight: .semibold))
+                    .font(.system(size: 22, weight: .semibold))
                     .foregroundColor(.tvIcon)
-                
-                Button {
-                    
-                } label: {
-                    Image(systemName: "plus")
-                        .font(.system(size: 35))
-                        .foregroundColor(.plusColor)
-                }
-            }.padding(.top, 35).padding(.bottom, 20)
+                    .padding(.leading, 5)
+            }
+            .padding(.top,35)
+            .padding(.bottom, 20)
             
             Text("Where do you want to go?")
                 .frame(width: 300, height: 100, alignment: .leading)

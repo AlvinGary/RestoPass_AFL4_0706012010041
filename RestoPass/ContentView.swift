@@ -48,11 +48,14 @@ struct ContentView: View {
         
         return TabView {
             HomeView()
-            
                 .tabItem() {
                     Image(systemName: "house")
                     Text("Home")
-                
+                }
+            AddList()
+                .tabItem() {
+                    Image(systemName: "plus")
+                    Text("Add List")
                 }
             ProfileView()
                 .tabItem() {

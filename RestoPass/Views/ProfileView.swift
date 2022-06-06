@@ -16,19 +16,28 @@ struct ProfileView: View {
     }
     
     var body: some View {
+        NavigationView {
         VStack {
             SquareImage(square: Image("A1.jpg"))
+            
+            NavigationLink(destination: Login(), label: {
+                Image(systemName: "person.circle")
+                    .imageScale(.large)
+                    .foregroundColor(.plusColor)
+                    .padding(.top, 15)
+                    .navigationBarHidden(true)
+            })
             
             Text("Alvin Gary")
                 .font(.system(size: 32))
                 .foregroundColor(.tvIcon)
                 .underline()
                 .shadow(color: .tvIcon, radius: 2, y: 2)
-                .padding(.top, 10)
+                .padding(.top, 5)
                 .padding(.bottom, 2)
             
             Spacer()
-            NavigationView {
+            
                 List {
                     FavoriteItemRow()
                         .aspectRatio(3 / 2, contentMode: .fit)

@@ -11,16 +11,13 @@
 		2657DEF5283BE63C00A41151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657DEF4283BE63C00A41151 /* ContentView.swift */; };
 		2657DEF7283BE63F00A41151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2657DEF6283BE63F00A41151 /* Assets.xcassets */; };
 		2657DEFA283BE63F00A41151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2657DEF9283BE63F00A41151 /* Preview Assets.xcassets */; };
-		268C9124284CA8BC00155FF7 /* Akun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C9123284CA8BC00155FF7 /* Akun.swift */; };
 		268C9126284CAAD100155FF7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C9125284CAAD100155FF7 /* CircleImage.swift */; };
-		268C912C284CFC5A00155FF7 /* account-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 268C912B284CFC5A00155FF7 /* account-data.json */; };
 		268C912D284D204500155FF7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657DF03283BF7D500A41151 /* HomeView.swift */; };
 		2694DE9C28459A220021ECAE /* Resto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2694DE9B28459A220021ECAE /* Resto.swift */; };
 		2694DE9E2845A9D50021ECAE /* restaurant-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2694DE9D2845A9D50021ECAE /* restaurant-data.json */; };
 		26A2D4F4284DBD5700327C47 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2D4F3284DBD5700327C47 /* Login.swift */; };
 		26A2D4F6284DBD6500327C47 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2D4F5284DBD6500327C47 /* Register.swift */; };
 		26A2D4F8284DBE2500327C47 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2D4F7284DBE2500327C47 /* LikeButton.swift */; };
-		26A2D4FA284DBE3800327C47 /* Dislike Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2D4F9284DBE3800327C47 /* Dislike Button.swift */; };
 		26A2D4FC284DCAFA00327C47 /* AddList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2D4FB284DCAFA00327C47 /* AddList.swift */; };
 		26A2D4FE284DCCE700327C47 /* SquareImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2D4FD284DCCE700327C47 /* SquareImage.swift */; };
 		26A2D500284DD01A00327C47 /* FavoriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2D4FF284DD01A00327C47 /* FavoriteItem.swift */; };
@@ -40,15 +37,12 @@
 		2657DEF6283BE63F00A41151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2657DEF9283BE63F00A41151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2657DF03283BF7D500A41151 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		268C9123284CA8BC00155FF7 /* Akun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akun.swift; sourceTree = "<group>"; };
 		268C9125284CAAD100155FF7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		268C912B284CFC5A00155FF7 /* account-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "account-data.json"; sourceTree = "<group>"; };
 		2694DE9B28459A220021ECAE /* Resto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resto.swift; sourceTree = "<group>"; };
 		2694DE9D2845A9D50021ECAE /* restaurant-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "restaurant-data.json"; sourceTree = "<group>"; };
 		26A2D4F3284DBD5700327C47 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		26A2D4F5284DBD6500327C47 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		26A2D4F7284DBE2500327C47 /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
-		26A2D4F9284DBE3800327C47 /* Dislike Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dislike Button.swift"; sourceTree = "<group>"; };
 		26A2D4FB284DCAFA00327C47 /* AddList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddList.swift; sourceTree = "<group>"; };
 		26A2D4FD284DCCE700327C47 /* SquareImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareImage.swift; sourceTree = "<group>"; };
 		26A2D4FF284DD01A00327C47 /* FavoriteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItem.swift; sourceTree = "<group>"; };
@@ -150,7 +144,6 @@
 				26A697E52843D78400E94B21 /* MapView.swift */,
 				268C9125284CAAD100155FF7 /* CircleImage.swift */,
 				26A2D4F7284DBE2500327C47 /* LikeButton.swift */,
-				26A2D4F9284DBE3800327C47 /* Dislike Button.swift */,
 				26A2D4FD284DCCE700327C47 /* SquareImage.swift */,
 			);
 			path = Helpers;
@@ -160,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				2694DE9D2845A9D50021ECAE /* restaurant-data.json */,
-				268C912B284CFC5A00155FF7 /* account-data.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -170,7 +162,6 @@
 			children = (
 				26A697E92843DCBE00E94B21 /* ModelData.swift */,
 				2694DE9B28459A220021ECAE /* Resto.swift */,
-				268C9123284CA8BC00155FF7 /* Akun.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,7 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2657DEFA283BE63F00A41151 /* Preview Assets.xcassets in Resources */,
-				268C912C284CFC5A00155FF7 /* account-data.json in Resources */,
 				2694DE9E2845A9D50021ECAE /* restaurant-data.json in Resources */,
 				2657DEF7283BE63F00A41151 /* Assets.xcassets in Resources */,
 			);
@@ -252,7 +242,6 @@
 				2694DE9C28459A220021ECAE /* Resto.swift in Sources */,
 				26A2D4F4284DBD5700327C47 /* Login.swift in Sources */,
 				26A2D4F6284DBD6500327C47 /* Register.swift in Sources */,
-				26A2D4FA284DBE3800327C47 /* Dislike Button.swift in Sources */,
 				2657DEF5283BE63C00A41151 /* ContentView.swift in Sources */,
 				26A2D505284DEE0400327C47 /* AllItemRow.swift in Sources */,
 				26A2D4F8284DBE2500327C47 /* LikeButton.swift in Sources */,
@@ -265,7 +254,6 @@
 				26A2D500284DD01A00327C47 /* FavoriteItem.swift in Sources */,
 				26A2D503284DD2B500327C47 /* FavoriteItemRow.swift in Sources */,
 				26A2D4FC284DCAFA00327C47 /* AddList.swift in Sources */,
-				268C9124284CA8BC00155FF7 /* Akun.swift in Sources */,
 				26A697ED2843DDB300E94B21 /* RestoRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
